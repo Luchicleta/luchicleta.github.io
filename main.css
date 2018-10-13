@@ -1,3 +1,4 @@
 #map {
-	height: 480px;
+    height: 50vh;
+	max-height: 50rem;
 }
