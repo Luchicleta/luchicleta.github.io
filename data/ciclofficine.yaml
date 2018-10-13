@@ -15,12 +15,3 @@
       address: "Calle de la Farigola 24, Vallcarca"
   working days:
       "Viernes de 16:30 a 20:00"
-
-- name: "La Revocleta"
-  url: "hhttps://revoltosa.squat.ne"
-  position:
-      latitude: 41.4103193
-      longitude: 2.1824396
-      address: "Carrer de Rogent 82, El Camp de l'Arpa del Clot"
-  working days:
-          "Miercoles de 17:00 a 20:00"
