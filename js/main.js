@@ -16,6 +16,7 @@ function main() {
 			document.getElementById('tile_container').appendChild(clf_tile);
 			add_clf_to_map(map, clf);
 		});
+		center_map(map);
 	});
 }
 

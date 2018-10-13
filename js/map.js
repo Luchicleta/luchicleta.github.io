@@ -1,3 +1,10 @@
+var custom_marker_icon = L.divIcon({
+	html: '<span class="icon is-size-3"><i class="fa fa-map-marker-alt"></i><span>',
+    className: 'marker-icon'
+  });
+
+var clf_positions = [];
+
 function setup_map() {
 	var osmUrl="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png";
 	var osmAttrib='Map data &copy <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
@@ -13,10 +20,17 @@ function setup_map() {
 }
 
 function add_clf_to_map(map, clf) {
+	var latlng = [clf.position.latitude, clf.position.longitude]
 	L.marker(
-		[clf.position.latitude, clf.position.longitude],
+		latlng,
 		{
+			icon: custom_marker_icon,
 			title: clf.name,
 			alt: clf.name
 		}).addTo(map);
+	clf_positions.push(latlng);
+}
+
+function center_map(map) {
+	map.fitBounds(clf_positions);
 }
