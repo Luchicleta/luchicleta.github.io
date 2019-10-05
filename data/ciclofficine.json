@@ -10,12 +10,13 @@
         "working days": "Sábado de 11:00 a 14:00"
     },
     {
-        "name": "Baikarka",
+        "name": "Bikearka + Biciosxs",
         "url": "http://biciosxs.noubarris.org/tallerdebicis",
         "position": {
-            "latitude": 41.4123555,
-            "longitude": 2.1452534,
+            "latitude": 41.412189,
+            "longitude": 2.146431,
             "address": "Calle de la Farigola 24, Vallcarca"
         },
-        "working days": "Viernes de 16:30 a 20:00"
+        "working days": "Viernes desde las 16:30"
     }
+]
