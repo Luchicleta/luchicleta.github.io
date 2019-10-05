@@ -28,5 +28,15 @@
             "address": "Calle de la Farigola 24, Vallcarca"
         },
         "working days": "Viernes desde las 16:30"
+    },
+    {
+        "name": "Bicinètika",
+        "url": "https://lacinetika.wordpress.com/2019/01/05/taller-de-bicis",
+        "position": {
+            "latitude": 41.430356,
+            "longitude": 2.188040,
+            "address": "La Cinètika, Passeig de Fabra i Puig, 28, Sant Andreu"
+        },
+        "working days": "Jueves de 18:00 a 21:00"
     }
 ]
