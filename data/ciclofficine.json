@@ -10,6 +10,16 @@
         "working days": "Sábado de 11:00 a 14:00"
     },
     {
+        "name": "Sense Frens",
+        "url": "https://radar.squat.net/en/node/4781",
+        "position": {
+            "latitude": 41.366028,
+            "longitude": 2.111194,
+            "address": "CSA L’Astilla, Avinguda Vilafranca 22, L’Hospitalet de Llobregat"
+        },
+        "working days": "Martes de 17:00 a 20:00"
+    },
+    {
         "name": "Bikearka + Biciosxs",
         "url": "http://biciosxs.noubarris.org/tallerdebicis",
         "position": {
