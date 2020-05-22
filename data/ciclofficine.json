@@ -1,15 +1,5 @@
 [
     {
-        "name": "Frenopatico",
-        "url": "http://rosadefoc.info/freno-patico/",
-        "position": {
-            "latitude": 41.40454,
-            "longitude": 2.15511,
-            "address": "Carrer del Robí, 5, Gracia"
-        },
-        "working days": "Sábado de 11:00 a 14:00"
-    },
-    {
         "name": "Sense Frens",
         "url": "https://radar.squat.net/en/node/4781",
         "position": {
@@ -38,5 +28,15 @@
             "address": "La Cinètika, Passeig de Fabra i Puig, 28, Sant Andreu"
         },
         "working days": "Jueves de 18:00 a 21:00"
+    },
+    {
+        "name": "Frenopatico",
+        "url": "http://rosadefoc.info/freno-patico/",
+        "position": {
+            "latitude": 41.40454,
+            "longitude": 2.15511,
+            "address": "Carrer del Robí, 5, Gracia"
+        },
+        "working days": "Sábado de 11:00 a 14:00"
     }
 ]
