@@ -11,10 +11,9 @@ function setup_map() {
 	var osmAttrib='Map data &copy <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
 	var bcn_latlng = L.latLng(41.39200,2.1656738);
 
-	var map = L.map('map')
+	var map = L.map('map', {dragging: !L.Browser.mobile })
 	L.tileLayer(osmUrl, {
 		attribution: osmAttrib,
-		dragging: !L.Browser.mobile,
 	}
 	).addTo(map);
 	map.setView(bcn_latlng, 12);
