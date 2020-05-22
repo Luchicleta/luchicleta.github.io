@@ -33,5 +33,5 @@ function add_clf_to_map(map, clf) {
 }
 
 function center_map(map) {
-	map.fitBounds(clf_positions, {maxZoom: 13});
+	map.fitBounds(clf_positions, {padding: [50,50]});
 }
