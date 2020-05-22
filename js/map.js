@@ -14,6 +14,7 @@ function setup_map() {
 	var map = L.map('map')
 	L.tileLayer(osmUrl, {
 		attribution: osmAttrib,
+		dragging: !L.Browser.mobile,
 	}
 	).addTo(map);
 	map.setView(bcn_latlng, 12);
