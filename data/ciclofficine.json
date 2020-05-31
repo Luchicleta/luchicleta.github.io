@@ -38,5 +38,14 @@
             "address": "Carrer del Robí, 5, Gracia"
         },
         "working days": "Sábado de 11:00 a 14:00"
+    },
+    {
+        "name": "Bizidekans",
+        "position": {
+            "latitude": 41.3155655,
+            "longitude": 2.0159187,
+            "address": "Espai Alliberat El Ganxet, C/Jaume Abril 45, Villadecans"
+        },
+        "working days": "Jueves de 18:00 a 21:00"
     }
 ]
