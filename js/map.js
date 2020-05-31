@@ -7,8 +7,8 @@ var custom_marker_icon = L.divIcon({
 var clf_positions = [];
 
 function setup_map() {
-	var osmUrl="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png";
-	var osmAttrib='Map data &copy <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
+	var osmUrl='https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+	var osmAttrib='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
 	var bcn_latlng = L.latLng(41.39200,2.1656738);
 
 	var map = L.map('map', {dragging: !L.Browser.mobile })
